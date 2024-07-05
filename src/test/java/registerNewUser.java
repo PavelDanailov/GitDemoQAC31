@@ -26,7 +26,6 @@ public class registerNewUser {
         WebElement registerLink = driver.findElement(By.linkText("Register"));
         registerLink.click();
 
-        // Step 4: Fill in the mandatory fields and checkboxes
         WebElement firstName = driver.findElement(By.id("input-firstname"));
         firstName.sendKeys("Pavel");
 
